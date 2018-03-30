@@ -1,0 +1,8 @@
+  html body{    /* Increasing the specificity using descendent combinators*/
+    background: blue;
+}
+
+ header  h1.title { /* We are overriding the third-party css style by increasing the specificity
+                    by applying class style*/
+    color: white;
+}
